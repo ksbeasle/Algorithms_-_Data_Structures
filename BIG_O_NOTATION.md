@@ -1,10 +1,63 @@
 
 # BIG O NOTATION
 
-![Image of Yaktocat](https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg)
+![Big-O Complexity Chart](https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg)
 
 <p>Runtime of an algorithm as the input grows.</p>
 
+___
+#### Linear Search Big O
+   * Best O(1)
+   * Worst O(n)
+   * Average O(n)
+
+#### Binary Search Big O (Sorted data only)
+  * Best O(1)
+  * Worst O(log n)
+  * Average O(log n)
+
+#### Bubble Sort Big O
+  * Best O(n)
+  * Worst O(n<sup>2</sup>)
+  * Average O(n<sup>2</sup>)
+
+#### Selection Sort Big O
+  * Best O(n)
+  * Worst O(n<sup>2</sup>)
+  * Average O(n<sup>2</sup>)
+___
+# How to Approach A Problem 
+
+1. Understand the problem.
+    * Can you restate the problem in your own words?
+    * What are the inputs to the problem?
+    * What are the outputs?
+    * Can the ouputs be determined from the inputs?
+    * How should you label the important pieces that are part of the problem?
+
+<br>
+
+2. Concrete Examples:
+    * Start with simple examples
+    * Progress to more complex examples
+    * Explore edge cases (empty inputs, invalid inputs, upper/lower bound)
+
+<br>
+
+3. Break it Down:
+    * Write out your steps
+    * Talk about those steps out loud
+    * Type out the skeleton of the code
+
+<br>
+
+4. Solve Or Simplify:
+    * Code!
+
+<br>
+
+5. Look Back and Refactor:
+    * d
 ____
 
 *   __Function__: Add each number you iterate over until you reach the target number passed in.
@@ -31,6 +84,20 @@ const addAllNumbers = (target) => {
     * There are 3 operations in function 2:``` multiplication, addition and division```
     * In function 1 there are n amount operations (```+```) alone inside the for loop. Not even including the (```=```) part of it or the (```++```) or the (```i <= n```)
 
+
+Function 3: ```O(N+M)```
+```javascript
+int sum(int[] nArr, int[] mArr) {
+    int sum = 0;
+    for(int i : nArr) {
+        sum += i;
+    }
+    for(int i : mArr) {
+        sum += i;
+    }
+    return sum;
+}
+```
 ___
 # Simplifying Big O Notation
 

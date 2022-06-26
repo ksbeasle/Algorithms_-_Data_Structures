@@ -1,0 +1,30 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Algorithm notes and code",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksbeasle/Algorithms_-_Data_Structures.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data",
+    "structures"
+  ],
+  "author": "Kahlil Beasley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksbeasle/Algorithms_-_Data_Structures/issues"
+  },
+  "homepage": "https://github.com/ksbeasle/Algorithms_-_Data_Structures#readme",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6"
+  }
+}
